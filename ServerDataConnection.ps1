@@ -1,7 +1,7 @@
 //Styles//
 Set(
     defaultLayouts,
-    {width: 643}
+    { width: 643 }
 );
 //Variables//
 Concurrent(
@@ -41,14 +41,14 @@ Concurrent(
         toastItemAdded,
         false
     ),
-   /* Set(
+    /* Set(
         restartTimer,
         false
     ),
     Set(
         startTimer,
         true
-    ),*/
+    ), */
     Set(
         assetTag,
         " "
@@ -63,7 +63,7 @@ Concurrent(
     )
 );
 //Creates a local cache of the Edit Screen data connections
-If(
+If (
     Connection.Connected,
     Concurrent(
         ClearCollect(
@@ -97,8 +97,8 @@ If(
                 "AssetTag_x0023_",
                 "Date",
                 "ItemDescription",
-                /*"EnteredInCireson",*/
-                /*"Notified",*/
+                / * "EnteredInCireson", * /
+                / * "Notified", * /
                 "Title",
                 "Transferto_x003a_",
                 "{Name}",
